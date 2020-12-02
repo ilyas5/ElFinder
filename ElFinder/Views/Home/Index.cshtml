@@ -1,0 +1,13 @@
+﻿@model ElFinder.Models.FileViewModel
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<br />
+<div class="row">
+    <div class="col-md-12">
+        <!-- Call the view of the ElFinder -->
+        @Html.Partial("_ElFinder", Model)
+
+    </div>
+</div>
